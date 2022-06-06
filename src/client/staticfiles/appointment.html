@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords"
+        content=" Uncompromising treatment with advanced accurate equipments and 24×7 pharma facilities only at Sree Manju Hospital, the best Hospital in Kukatpally ,Orthopedics,Gynaecology,Paediatrics & Neonatology,General Medicine,Radiology
+hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,kukatpally hospital list,kphb hospitals,best multispeciality hospital" />
+    <meta name="description"
+        content="Uncompromising treatment with advanced accurate equipments and 24×7 pharma facilities only at Sree Manju Hospital, the best Hospital in Kukatpally " />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kaizen</title>
+    <link rel="canonical" href="https://kaizenoncology.com/" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container flex">
+            <div id="logo">
+                <a href="index"><img src="assets/images/logo.svg" alt=""></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="aboutcancer.html">About Cancer</a></li>
+                    <li><a href="blogs">Blog</a></li>
+                    <li><a href="contact" class="active">Contact Us</a></li>
+                </ul>
+            <div class="mobileMenuAddress">
+                    <h3>Our Locations</h3>
+                    <div class="mobileLocations">
+                        <h4>Care Hospitals - Hi-tech City </h4>
+                        <p>1-4-908/7/1, Musheerabad Main Rd, near Raja Deluxe Theatre, Musheerabad, Bakaram, Kavadiguda,
+                            Hyderabad, Telangana 500020</p>
+                        <h4>Care Hospitals - Banjara Hills</h4>
+                        <p>Rd Number 1, Prem Nagar,<br> Banjara Hills, Hyderabad, Telangana 500034</p>
+                        <h4>Care Hospitals - Nampally</h4>
+                        <p>Exhibition Grounds, Road, Nampally, Hyderabad, Telangana 500001</p>
+                        <h4>Mahavir Hospitals - Masab Tank</h4>
+                        <p class="mb-0">10-1-1, Utkoor - Mogdumpur Rd, AC Guards, Lakdikapul, Hyderabad, Telangana 500004</p>
+                    </div>
+                </div>
+            </nav>
+            <div class="nav-icon"><span></span><span></span><span></span></div>
+            <div class="overlay"></div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="bannerSlider doctorsBanner">
+            <div class="bannerImage" style="background-image: url('assets/images/contactus.jpg');">
+            </div>
+        </div>
+    </div>
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href="index">Home</a></li> 
+                <li><a href="contact">Contact Us</a></li>
+                <li class="active">Appointment</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="appointmentmain space40">
+            <h2>
+                <img src="assets/images/patient.svg" alt="">
+                PATIENTS INFORMATION
+            </h2>
+            <form action="/submitappointment" method="post" class="appointmentForm">
+                <ul>
+                    <li>
+                        <h5>Patient name:</h5>
+                        <input type="text" placeholder="Patient name">
+                    </li>
+                    <li>
+                        <h5>Mobile number:</h5>
+                        <input type="text" placeholder="Mobile number">
+                    </li>
+                    <li>
+                        <div class="genderAge">
+                            <div class="genderDiv">
+                                <h5>Gender:</h5>
+                                <div class="gender">
+                                    <input class="ml-0" type="radio" id="male" name="gender">
+                                    <label for="male">Male</label> &nbsp;&nbsp;
+                                    <input type="radio" id="female" name="gender">
+                                    <label for="female">Female</label>
+                                </div>
+                            </div>
+                            <div class="genderDiv ageDiv">
+                                <h5>Age:</h5>
+                                <input type="text" placeholder="Age">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h5>Email address:</h5>
+                        <input type="text" placeholder="Email address">
+                    </li>
+                    <li>
+                        <h5>Appointment Date:</h5>
+                        <div class="dateTime">
+                            <input type="text" id="inputDate" placeholder="Appointment Date">
+                            <img src="assets/images/date.svg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <h5>Appointment Time:</h5>
+                        <div class="dateTime">
+                            <input type="text" id="timepicker" placeholder="Appointment Time">
+                            <img src="assets/images/time.svg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="genderDiv">
+                            <h5>Did you visit us for Consultation in the past?</h5>
+                            <div class="gender">
+                                <input type="radio" id="yes" name="consultation">
+                                <label for="yes">Yes</label> &nbsp;&nbsp;
+                                <input type="radio" id="no" name="consultation">
+                                <label for="no">No</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Find and select your preffered doctor and department</h4>
+                        <h5>Search by preferred Doctors and department</h5>
+                        <div class="searchFileds">
+                            <div class="searchItem">
+                                <img src="assets/images/search.svg" alt="">
+                                <input type="text" placeholder="Search by department">
+                            </div>
+                            <div class="searchItem">
+                                <img src="assets/images/search.svg" alt="">
+                                <input type="text" placeholder="Search by preferred doctors">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="extralink">
+        <ul>
+            <li><a href="appointment"><span><img src="assets/images/phone-white.svg" alt=""></span><small>Book An
+                        &nbsp;</small> Appointment</a></li>
+            <li><a href="javascript:void(0)"><span><img src="assets/images/whatsappIcon2.svg" alt=""></span>Enquiry Now</a>
+            </li>
+            <li><a href="team.html"><span><img src="assets/images/findDoctor.svg" alt=""></span>Find a Doctor</a></li>
+            <li><a href="contact#locationSection"><span><img src="assets/images/locationIcon2.svg" alt=""></span>Location</a>
+            </li>
+        </ul>
+    </div>
+
+    <footer class="space40">
+        <div class="container">
+            <div class="footerLogo"><a href="index"><img src="assets/images/logo.svg" alt=""></a></div>
+            <div class="footerRight">
+                <div class="footerlinks">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="index">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="aboutcancer.html">About Cancer</a></li>
+                        <li><a href="blogs">Blog</a></li>
+                        <li><a href="contact">Contacts Us</a></li>
+                    </ul>
+                </div>
+                <div class="footerlinks">
+                    <h4>CONTACT</h4>
+                    <ul>
+                        <li><a href="mailto:kaizen@gmali.com">kaizen@gmali.com</a></li>
+                        <li><a href="tel:841123456">+841 123 456</a></li>
+                    </ul>
+                </div>
+                <div class="footerlinks addressBlock">
+                    <h4>ADDRESS</h4>
+                    <p>Hi-tech City | Banjara Hills | Nampally | Masab Tank</p>
+                    <div class="socialMedia">
+                        <label class="socialLabel">Follow Us :</label>
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/channel/UCo_QHdCV1JFp_vQPYLMqY2A"><img src="assets/images/youtubeIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/kaizenoncologynetwork/?ref=pages_you_manage"><img src="assets/images/facebookIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://twitter.com/KaizenOncology"><img src="assets/images/twitterIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/company/kaizen-oncology/?viewAsMember=true"><img src="assets/images/linkedinIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/kaizenoncologynetwork/"><img src="assets/images/instgaramIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://blog.kaizenoncology.com/"><img src="assets/images/blogIcon.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyRights">
+        <p>Copyright <span>©</span> <span id="yearUpdate">2022</span> kaizen rights reserved.</p>
+    </div>
+    <a href="javascript:void(0)" class="back-to-top" onclick="$('html,body').animate({scrollTop:0},500);"> </a>
+    <span class="extraMobileSpace"></span>
+    
+    <script src="js/global.js"></script>
+    <script src="js/jquery.datetimepicker.full.min.js"></script>
+    <script>
+        //======== Date and Time
+        $('#inputDate').datetimepicker({
+            timepicker: false,
+            format: 'd/m/Y',
+            formatDate: 'Y/m/d'
+        }); 
+        $('#timepicker').datetimepicker({
+	datepicker:false,
+	format:'H:i',
+	step:5
+});
+        // $('#timepicker').datetimepicker({value:'2015/04/15 05:06'});
+    </script>
+</body>
+
+</html>

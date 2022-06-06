@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords"
+        content=" Uncompromising treatment with advanced accurate equipments and 24×7 pharma facilities only at Sree Manju Hospital, the best Hospital in Kukatpally ,Orthopedics,Gynaecology,Paediatrics & Neonatology,General Medicine,Radiology
+hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,kukatpally hospital list,kphb hospitals,best multispeciality hospital" />
+    <meta name="description"
+        content="Uncompromising treatment with advanced accurate equipments and 24×7 pharma facilities only at Sree Manju Hospital, the best Hospital in Kukatpally " />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kaizen</title>
+    <link rel="canonical" href="https://kaizenoncology.com/" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/easy-responsive-tabs.css">
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container flex">
+            <div id="logo">
+                <a href="index"><img src="assets/images/logo.svg" alt=""></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="patientinfo.html" class="active">Cancer Types</a></li>
+                    <li><a href="blogs">Blog</a></li>
+                    <li><a href="contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icon"><span></span><span></span><span></span></div>
+            <div class="overlay"></div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="bannerSlider innerPageBanner doctorsBanner">
+            <div class="bannerImage" style="background-image: url('assets/images/ourTeam.jpg');">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="patientMain">
+            <div class="patientTabs">
+                <div id="verticalTabs">
+                    <ul class="resp-tabs-list">
+                        <li>
+                            <span class="icon"><img src="assets/images/aboutcancer.svg" alt=""></span>
+                            <small>ABOUT CANCER</small>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="assets/images/aboutcancer.svg" alt=""></span>
+                            <small>CANCER TREATMENT</small>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="assets/images/fightingcancer.svg" alt=""></span>
+                            <small>FIGHTING CANCER</small>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="assets/images/secondopinion.svg" alt=""></span>
+                            <small>SECOND OPINION</small>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="assets/images/patientstories.svg" alt=""></span>
+                            <small>PATIENT STORIES</small>
+                        </li>
+                    </ul>
+                    <div class="resp-tabs-container">
+                        <div>
+                            <div class="cancerBlock">
+                                <div class="cancerIamge">
+                                    <img src="assets/images/cancerImage.png" alt="">
+                                </div>
+                                <div class="cancerContent">
+                                    <h2>ABOUT CANCER</h2>
+                                    <p>Cancer is a generic term used to describe a group of diseases that develop across
+                                        time and can affect any part of the body. There are more than a hundred distinct
+                                        types of cancer, which vary substantially in their behavior and response to
+                                        treatment. Globally, cancer is the second leading cause of death and accounts
+                                        for
+                                        9.6 million deaths in 2018.</p>
+                                    <p>As the cancer burden continues to grow globally, the prevention of cancer is one
+                                        of
+                                        the most significant challenges of the 21st century. To understand any cancer
+                                        type
+                                        and to manage it effectively, it is first important to understand about cancer.
+                                    </p>
+                                    <h5 class="orange-text">What is cancer?</h5>
+                                    <p>Humans are complex multicellular organisms made up of trillions of cells, each
+                                        with
+                                        its own structure and function. And our body is programmed to routinely
+                                        replenish
+                                        cells in different organs. As normal cells age or get damaged, they die off and
+                                        new
+                                        cells take their place as per the signals given by the genes.</p>
+                                    <p>Cancer begins when these genetic changes interfere with this orderly process.
+                                        When
+                                        this process is disturbed cells no longer respond to the signals and begin to
+                                        grow
+                                        abnormally. These abnormal cells grow and divide uncontrollably in the body and
+                                        slowly accumulate to form a tissue mass, lump or growth called a tumor. These
+                                        abnormal cells can destroy normal body tissue and spread through the bloodstream
+                                        and
+                                        lymphatic system.</p>
+                                    <h5 class="orange-text">Types of cancer</h5>
+                                    <p class="mb-0">Cancers are mainly divided into five types based on where it begins:
+                                    </p>
+                                    <ul>
+                                        <li>Carcinomas develop in the skin or tissues that line the internal organs</li>
+                                        <li>Sarcomas begin in the bone, cartilage, fat, muscle or other connective
+                                            tissues
+                                        </li>
+                                        <li>Leukemia begins in the blood cells and bone marrow - Lymphomas begins in the
+                                            lymphatic system</li>
+                                        <li>Central nervous system cancers develop in the brain and spinal cord</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cancerTypes">
+                                <h2>TYPES OF CANCERS</h2>
+                                <div class="searchService">
+                                    <div class="serviceSearchBlock">
+                                        <img src="assets/images/search.svg" alt="">
+                                        <input placeholder="Search by Department" type="text">
+                                    </div>
+                                    <button class="button">Search</button>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/acuteleukemia.svg" alt=""></span>
+                                            <small>Acute Leukemia</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/bonecancer.svg" alt=""></span>
+                                            <small>Bone Cancer and Sarcomas</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/cervicalcancer.svg" alt=""></span>
+                                            <small>Cervical Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/endometrailcancer.svg"
+                                                    alt=""></span>
+                                            <small>Endometrial / Uterine Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/livergallbladdercancer.svg"
+                                                    alt=""></span>
+                                            <small>Liver And Gall Bladder Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/myelodysplasticsyndrome.svg"
+                                                    alt=""></span>
+                                            <small>Myelodysplastic Syndromes</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/pancreaticcancer.svg"
+                                                    alt=""></span>
+                                            <small>Pancreatic Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/stomachcancer.svg" alt=""></span>
+                                            <small>Stomach and Esophageal Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/anemiaitp.svg" alt=""></span>
+                                            <small>Anemia, Thalassemia, Thrombocytopenias, ITP</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/braintumor.svg" alt=""></span>
+                                            <small>Brain Tumor</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/chronicalleukemia.svg"
+                                                    alt=""></span>
+                                            <small>Chronical Leukemia</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/kidneycancer.svg" alt=""></span>
+                                            <small>Kidney Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/lungcancer.svg" alt=""></span>
+                                            <small>Lung Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/neuroendocrinecancer.svg"
+                                                    alt=""></span>
+                                            <small>Neuroendocrine Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/prostatecancer.svg" alt=""></span>
+                                            <small>Prostate Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/testicularcancer.svg"
+                                                    alt=""></span>
+                                            <small>Testicular Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/tonguecancer.svg" alt=""></span>
+                                            <small>Tongue and Buccal Mucosa Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/bladdercancer.svg" alt=""></span>
+                                            <small>Bladder Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/coloncancer.svg" alt=""></span>
+                                            <small>Colon and Rectal Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/larynx.svg" alt=""></span>
+                                            <small>Larynx Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/multiplemyeloma.svg"
+                                                    alt=""></span>
+                                            <small>Multiple Myeloma and Plasmacytoma</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/ovariancancer.svg" alt=""></span>
+                                            <small>Ovarian Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/skincancer.svg" alt=""></span>
+                                            <small>Skin Cancer</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/thyroidcancer.svg" alt=""></span>
+                                            <small>Thyroid Cancer</small>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="cancerBlock">
+                                <div class="cancerIamge">
+                                    <img src="assets/images/cancerImage.png" alt="">
+                                </div>
+                                <div class="cancerContent">
+                                    <h2>CANCER TREATMENT</h2>
+                                    <p>Cancer is a generic term used to describe a group of diseases that develop across
+                                        time and can affect any part of the body. There are more than a hundred distinct
+                                        types of cancer, which vary substantially in their behavior and response to
+                                        treatment. Globally, cancer is the second leading cause of death and accounts
+                                        for
+                                        9.6 million deaths in 2018.</p>
+                                    <h5 class="orange-text">What is cancer?</h5>
+                                    <p>Humans are complex multicellular organisms made up of trillions of cells, each
+                                        with
+                                        its own structure and function. And our body is programmed to routinely
+                                        replenish
+                                        cells in different organs. As normal cells age or get damaged, they die off and
+                                        new
+                                        cells take their place as per the signals given by the genes.</p>
+                                    <p>Cancer begins when these genetic changes interfere with this orderly process.
+                                        When
+                                        this process is disturbed cells no longer respond to the signals and begin to
+                                        grow
+                                        abnormally. These abnormal cells grow and divide uncontrollably in the body and
+                                        slowly accumulate to form a tissue mass, lump or growth called a tumor. These
+                                        abnormal cells can destroy normal body tissue and spread through the bloodstream
+                                        and
+                                        lymphatic system.</p>
+                                    <h5 class="orange-text">Types of cancer</h5>
+                                    <p class="mb-0">Cancers are mainly divided into five types based on where it begins:
+                                    </p>
+                                    <ul>
+                                        <li>Carcinomas develop in the skin or tissues that line the internal organs</li>
+                                        <li>Sarcomas begin in the bone, cartilage, fat, muscle or other connective
+                                            tissues
+                                        </li>
+                                        <li>Leukemia begins in the blood cells and bone marrow - Lymphomas begins in the
+                                            lymphatic system</li>
+                                        <li>Central nervous system cancers develop in the brain and spinal cord</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cancerTypes">
+                                <h2 class="mb-0">Cancer Treatments</h2>
+                                <!-- <div class="searchService">
+                                    <div class="serviceSearchBlock">
+                                        <img src="assets/images/search.svg" alt="">
+                                        <input placeholder="Search by Department" type="text">
+                                    </div>
+                                    <button class="button">Search</button>
+                                </div> -->
+                                <ul class="mt-10">
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/acuteleukemia.svg" alt=""></span>
+                                            <small>Chemotherapy</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/bonecancer.svg" alt=""></span>
+                                            <small>Cancer Surgery</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/cervicalcancer.svg" alt=""></span>
+                                            <small>Radiation Therapy </small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="aboutcancers.html">
+                                            <span><img src="assets/images/cancericons/endometrailcancer.svg"
+                                                    alt=""></span>
+                                            <small>Bone Marrow Transplant</small>
+                                        </a>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="cancerBlock">
+                                <div class="cancerIamge">
+                                    <img src="assets/images/cancerImage.png" alt="">
+                                </div>
+                                <div class="cancerContent">
+                                    <h2>FIGHTING CANCER</h2>
+
+                                    <p>As the cancer burden continues to grow globally, the prevention of cancer is one
+                                        of
+                                        the most significant challenges of the 21st century. To understand any cancer
+                                        type
+                                        and to manage it effectively, it is first important to understand about cancer.
+                                    </p>
+                                    <h5 class="orange-text">What is cancer?</h5>
+                                    <p>Humans are complex multicellular organisms made up of trillions of cells, each
+                                        with
+                                        its own structure and function. And our body is programmed to routinely
+                                        replenish
+                                        cells in different organs. As normal cells age or get damaged, they die off and
+                                        new
+                                        cells take their place as per the signals given by the genes.</p>
+                                    <p>Cancer begins when these genetic changes interfere with this orderly process.
+                                        When
+                                        this process is disturbed cells no longer respond to the signals and begin to
+                                        grow
+                                        abnormally. These abnormal cells grow and divide uncontrollably in the body and
+                                        slowly accumulate to form a tissue mass, lump or growth called a tumor. These
+                                        abnormal cells can destroy normal body tissue and spread through the bloodstream
+                                        and
+                                        lymphatic system.</p>
+                                    <h5 class="orange-text">Types of cancer</h5>
+                                    <p class="mb-0">Cancers are mainly divided into five types based on where it begins:
+                                    </p>
+                                    <ul>
+                                        <li>Carcinomas develop in the skin or tissues that line the internal organs</li>
+                                        <li>Sarcomas begin in the bone, cartilage, fat, muscle or other connective
+                                            tissues
+                                        </li>
+                                        <li>Leukemia begins in the blood cells and bone marrow - Lymphomas begins in the
+                                            lymphatic system</li>
+                                        <li>Central nervous system cancers develop in the brain and spinal cord</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="cancerBlock">
+                                <div class="cancerIamge">
+                                    <img src="assets/images/cancerImage.png" alt="">
+                                </div>
+                                <div class="cancerContent">
+                                    <h2>SECOND OPINION</h2>
+                                    <p>Cancer is a generic term used to describe a group of diseases that develop across
+                                        time and can affect any part of the body. There are more than a hundred distinct
+                                        types of cancer, which vary substantially in their behavior and response to
+                                        treatment. Globally, cancer is the second leading cause of death and accounts
+                                        for
+                                        9.6 million deaths in 2018.</p>
+                                    <p>As the cancer burden continues to grow globally, the prevention of cancer is one
+                                        of
+                                        the most significant challenges of the 21st century. To understand any cancer
+                                        type
+                                        and to manage it effectively, it is first important to understand about cancer.
+                                    </p>
+                                    <h5 class="orange-text">What is cancer?</h5>
+                                    <p>Humans are complex multicellular organisms made up of trillions of cells, each
+                                        with
+                                        its own structure and function. And our body is programmed to routinely
+                                        replenish
+                                        cells in different organs. As normal cells age or get damaged, they die off and
+                                        new
+                                        cells take their place as per the signals given by the genes.</p>
+                                    <p>Cancer begins when these genetic changes interfere with this orderly process.
+                                        When
+                                        this process is disturbed cells no longer respond to the signals and begin to
+                                        grow
+                                        abnormally. These abnormal cells grow and divide uncontrollably in the body and
+                                        slowly accumulate to form a tissue mass, lump or growth called a tumor. These
+                                        abnormal cells can destroy normal body tissue and spread through the bloodstream
+                                        and
+                                        lymphatic system.</p>
+                                    <h5 class="orange-text">Types of cancer</h5>
+                                    <p class="mb-0">Cancers are mainly divided into five types based on where it begins:
+                                    </p>
+                                    <ul>
+                                        <li>Carcinomas develop in the skin or tissues that line the internal organs</li>
+                                        <li>Sarcomas begin in the bone, cartilage, fat, muscle or other connective
+                                            tissues
+                                        </li>
+                                        <li>Leukemia begins in the blood cells and bone marrow - Lymphomas begins in the
+                                            lymphatic system</li>
+                                        <li>Central nervous system cancers develop in the brain and spinal cord</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="cancerBlock">
+                                <div class="cancerIamge">
+                                    <img src="assets/images/cancerImage.png" alt="">
+                                </div>
+                                <div class="cancerContent">
+                                    <h2>PATIENT STORIES</h2>
+                                    <p>As the cancer burden continues to grow globally, the prevention of cancer is one
+                                        of
+                                        the most significant challenges of the 21st century. To understand any cancer
+                                        type
+                                        and to manage it effectively, it is first important to understand about cancer.
+                                    </p>
+                                    <h5 class="orange-text">What is cancer?</h5>
+                                    <p>Humans are complex multicellular organisms made up of trillions of cells, each
+                                        with
+                                        its own structure and function. And our body is programmed to routinely
+                                        replenish
+                                        cells in different organs. As normal cells age or get damaged, they die off and
+                                        new
+                                        cells take their place as per the signals given by the genes.</p>
+                                    <p>Cancer begins when these genetic changes interfere with this orderly process.
+                                        When
+                                        this process is disturbed cells no longer respond to the signals and begin to
+                                        grow
+                                        abnormally. These abnormal cells grow and divide uncontrollably in the body and
+                                        slowly accumulate to form a tissue mass, lump or growth called a tumor. These
+                                        abnormal cells can destroy normal body tissue and spread through the bloodstream
+                                        and
+                                        lymphatic system.</p>
+                                    <h5 class="orange-text">Types of cancer</h5>
+                                    <p class="mb-0">Cancers are mainly divided into five types based on where it begins:
+                                    </p>
+                                    <ul>
+                                        <li>Carcinomas develop in the skin or tissues that line the internal organs</li>
+                                        <li>Sarcomas begin in the bone, cartilage, fat, muscle or other connective
+                                            tissues
+                                        </li>
+                                        <li>Leukemia begins in the blood cells and bone marrow - Lymphomas begins in the
+                                            lymphatic system</li>
+                                        <li>Central nervous system cancers develop in the brain and spinal cord</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="getinTouch" style="background-image: url(assets/images/getInTouchBanner.png);">
+        <div class="container">
+            <div>
+                <p>Do you need emergency Medical care?</p>
+                <h2>Do you Have HealthProblems?</h2>
+            </div>
+            <a href="appointment" class="button">Get an Appointment</a>
+        </div>
+    </div>
+
+    <footer class="space40">
+        <div class="container">
+            <div class="footerLogo"><a href="index"><img src="assets/images/logo.svg" alt=""></a></div>
+            <div class="footerRight">
+                <div class="footerlinks">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="patientinfo.html" class="active">case</a></li>
+                        <li><a href="blogs">Blog</a></li>
+                        <li><a href="contact">Contacts Us</a></li>
+                    </ul>
+                </div>
+                <div class="footerlinks">
+                    <h4>CONTACT</h4>
+                    <ul>
+                        <li><a href="mailto:kaizen@gmali.com">kaizen@gmali.com</a></li>
+                        <li><a href="tel:841123456">+841 123 456</a></li>
+                    </ul>
+                </div>
+                <div class="footerlinks addressBlock">
+                    <h4>ADDRESS</h4>
+                    <p>Hi-tech City | Banjara Hills| Nampally | Musheerabad</p>
+                    <div class="socialMedia">
+                        <label class="socialLabel">Follow Us :</label>
+                        <ul>
+                            <li><a target="_blank" href="https://www.youtube.com/channel/UCo_QHdCV1JFp_vQPYLMqY2A"><img
+                                        src="assets/images/youtubeIcon.svg" alt=""></a></li>
+                            <li><a target="_blank"
+                                    href="https://www.facebook.com/kaizenoncologynetwork/?ref=pages_you_manage"><img
+                                        src="assets/images/facebookIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://twitter.com/KaizenOncology"><img
+                                        src="assets/images/twitterIcon.svg" alt=""></a></li>
+                            <li><a target="_blank"
+                                    href="https://www.linkedin.com/company/kaizen-oncology/?viewAsMember=true"><img
+                                        src="assets/images/linkedinIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/kaizenoncologynetwork/"><img
+                                        src="assets/images/instgaramIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://blog.kaizenoncology.com/"><img
+                                        src="assets/images/blogIcon.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyRights">
+        <p>Copyright <span>©</span> <span id="yearUpdate">2022</span> kaizen rights reserved.</p>
+    </div>
+    <a href="javascript:void(0)" class="back-to-top" onclick="$('html,body').animate({scrollTop:0},500);"> </a>
+    <script src="js/global.js"></script>
+    <script src="js/easy-responsive-tabs.js"></script>
+    <script>
+        //======== banner Slider
+        //======== Responsive Tabs
+        $('#verticalTabs').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion           
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            activate: function (event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+
+        // function openPage() {
+        //     window.location = 'aboutcancers.html';
+        // } 
+    </script>
+</body>
+
+</html>
