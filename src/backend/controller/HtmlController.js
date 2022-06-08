@@ -7,7 +7,7 @@ function index(req, res) {
   //   filename: req.filename,
   // });
 
-  // res.send(req.filename);
+  res.send(req.filename);
   // res.redirect('/index')
 }
 
