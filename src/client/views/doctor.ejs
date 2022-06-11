@@ -211,8 +211,10 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
     <div class="getinTouch" style="background-image: url(../assets/images/getInTouchBanner.png);">
         <div class="container">
             <div>
-                <p>Do you need emergency Medical care?</p>
-                <h2>Do you Have HealthProblems?</h2>
+
+                <p>Get a Second Opinion</p>
+                <h2>Make your right decision... Your Health Matters
+</h2>
             </div>
             <a href="../appointment" class="button">Get in touch</a>
         </div>
@@ -226,13 +228,17 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
                     Industry's Standard Dummy Text Ever Since The 1500S, When An Unknown Printer Took A Galley Of Type
                     And Scrambled It To Make .</p>
                 <ul>
+<% for(let i=0; i < services.length; i++){ %>
+
+
                     <li>
                         <a href="#">
-                            <span class="icon"><img src="<%= services[0].service_url %>" alt=""></span>
-                            <span class="title"><%= services[0].service_name %></span>
-                            <span class="data"><%= services[0].service_desc %></span>
+                            <span class="icon"><img src="/uploads/<%= services[i].service_url %>" alt=""></span>
+                            <span class="title"><%= services[i].service_name %></span>
+                            <span class="data"><%= services[i].service_desc %></span>
                         </a>
                         </li>
+<% } %>
                 </ul>
             </div>
         </div>
@@ -256,74 +262,45 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
                 <div class="successTabContent active year2018">
                     <div class="hospitalBlog owl-carousel owl-theme">
                         <% for(let i=0; i< blogs.length; i++) { %>
+                            <% if(blogs[i].type == 0){%>
+        
+                        <div class="hospitabBlogContent">
+                            <div class="blogImage"><img style="height: 180px;" src="<%= blogs[i].displayimg %>" alt=""></div>
+                            <h4><%= blogs[i].displayname %></h4>
+                            <p class="blogdesc"><%= JSON.parse(blogs[i].description) %></p>
+                            <div class="blogOptions">
+        <% let a = blogs[i].createdAt + "" %>
+                                <span><%= a.slice(4,15) %></span>
+                                <ul>
+                                    <li><a href=""><img src="assets/images/commentIcon.png" alt=""><small>12</small></a>
+                                    </li>
+                                    <li><a href=""><img src="assets/images/readMoreIcon.png" alt="">Read More</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <% }else if(blogs[i].type == 1) {%>
                             <div class="hospitabBlogContent">
-                                <div class="blogImage"><img src="<%= blogs[i].displayimg %>" alt=""></div>
+                                <div class="blogImage"> <iframe width="100%" height="180px" src="<%= blogs[i].videosrc %>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                                 <h4><%= blogs[i].displayname %></h4>
                                 <p class="blogdesc"><%= JSON.parse(blogs[i].description) %></p>
                                 <div class="blogOptions">
-                                    <span><%= blogs[i].createdAt %></span>
+                                    <% let a = blogs[i].createdAt + "" %>
+                                <span><%= a.slice(4,15) %></span>
                                     <ul>
                                         <li><a href=""><img src="assets/images/commentIcon.png" alt=""><small>12</small></a>
                                         </li>
-                                        <li><a href=""><img src="assets/images/readMoreIcon.png" alt="">Read More</a></li>
+                                        <li><a class="" target="_blank" href="<%= blogs[i].videosrc %>">play</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
-                            <% } %>
-                        <div class="hospitabBlogContent">
-                            <div class="blogImage"> <img src="../assets/images/successImg1.png" alt=""></div>
-                            <h4>2018 Causes/ Risk Factors</h4>
-                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why
-                                you
-                                should have to spend money on boot camp when you...</p>
-                            <div class="blogOptions">
-                                <span>19 Jan 2015</span>
-                                <ul>
-                                    <li><a href=""><img src="../assets/images/commentIcon.png"
-                                                alt=""><small>12</small></a>
-                                    </li>
-                                    <li><a href=""><img src="../assets/images/readMoreIcon.png" alt="">Read More</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="hospitabBlogContent">
-                            <div class="blogImage"> <img src="../assets/images/successImg1.png" alt=""></div>
-                            <h4>Causes/ Risk Factors</h4>
-                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why
-                                you
-                                should have to spend money on boot camp when you...</p>
-                            <div class="blogOptions">
-                                <span>19 Jan 2015</span>
-                                <ul>
-                                    <li><a href=""><img src="../assets/images/commentIcon.png"
-                                                alt=""><small>12</small></a>
-                                    </li>
-                                    <li><a href=""><img src="../assets/images/readMoreIcon.png" alt="">Read More</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="hospitabBlogContent">
-                            <div class="blogImage"> <img src="../assets/images/successImg1.png" alt=""></div>
-                            <h4>Causes/ Risk Factors</h4>
-                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why
-                                you
-                                should have to spend money on boot camp when you...</p>
-                            <div class="blogOptions">
-                                <span>19 Jan 2015</span>
-                                <ul>
-                                    <li><a href=""><img src="../assets/images/commentIcon.png"
-                                                alt=""><small>12</small></a>
-                                    </li>
-                                    <li><a href=""><img src="../assets/images/readMoreIcon.png" alt="">Read More</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <% } }%>
+        
+
                     </div>
                 </div>
-                <div class="successTabContent year2019">
+                <!-- <div class="successTabContent year2019">
                     <div class="hospitalBlog owl-carousel owl-theme">
                         <div class="hospitabBlogContent">
                             <div class="blogImage"> <img src="../assets/images/successImg1.png" alt=""></div>
@@ -487,7 +464,7 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -505,81 +482,6 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
                             <img src="/uploads/<%= galleryimages[i].imgsrc %>" alt="">
                         </a>
                         <% } %>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage2.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage2.jpg" data-slide-index="1">
-                        <img src="../assets/images/galleryImages/galleryImage2.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage3.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage3.jpg" data-slide-index="2">
-                        <img src="../assets/images/galleryImages/galleryImage3.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage4.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage4.jpg" data-slide-index="3">
-                        <img src="../assets/images/galleryImages/galleryImage4.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage5.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage5.jpg" data-slide-index="4">
-                        <img src="../assets/images/galleryImages/galleryImage5.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage6.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage6.jpg" data-slide-index="5">
-                        <img src="../assets/images/galleryImages/galleryImage6.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage7.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage7.jpg" data-slide-index="6">
-                        <img src="../assets/images/galleryImages/galleryImage7.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage8.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage8.jpg" data-slide-index="7">
-                        <img src="../assets/images/galleryImages/galleryImage8.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage9.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage9.jpg" data-slide-index="8">
-                        <img src="../assets/images/galleryImages/galleryImage9.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage10.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage10.jpg" data-slide-index="9">
-                        <img src="../assets/images/galleryImages/galleryImage10.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage11.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage11.jpg" data-slide-index="10">
-                        <img src="../assets/images/galleryImages/galleryImage11.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage12.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage12.jpg" data-slide-index="11">
-                        <img src="../assets/images/galleryImages/galleryImage12.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage13.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage13.jpg" data-slide-index="12">
-                        <img src="../assets/images/galleryImages/galleryImage13.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage14.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage14.jpg" data-slide-index="13">
-                        <img src="../assets/images/galleryImages/galleryImage14.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage15.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage15.jpg" data-slide-index="14">
-                        <img src="../assets/images/galleryImages/galleryImage15.jpg" alt="">
-                    </a>
-                    <a class="galleryItem html5lightbox" data-fullscreenmode="true" data-transition="slide"
-                        data-group="mygroup" href="../assets/images/galleryImages/galleryImage16.jpg"
-                        data-thumbnail="../assets/images/galleryImages/galleryImage16.jpg" data-slide-index="15">
-                        <img src="../assets/images/galleryImages/galleryImage16.jpg" alt="">
-                    </a>
                 </div>
             </div>
         </div>

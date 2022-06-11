@@ -410,10 +410,10 @@
                                                 <div class="container p-0 mr-15">
                                                     <div class="input-group mt-0">
                                                      
-                                                      <span id="copyButton" class="input-group-addon btn" title="Click to copy">
+                                                      <span id="copyButton" class="input-group-addon btn copyButton" title="Click to copy">
                                                         <i class="fa fa-clipboard" aria-hidden="true"></i>
                                                       </span>
-                                                      <input type="text" id="copyTarget" class="form-control" value="/uploads/<%= galleryimages[i].imgsrc %>">
+                                                      <input type="text" id="copyTarget" class="form-control copyTarget" value="<%= galleryimages[i].imgsrc %>">
                                                       <span class="copied">Copied !</span>
                                                     </div>
                                                   </div>
@@ -640,41 +640,17 @@ $(".toggle-password").click(function () {
   "use strict";
 
   function copyToClipboard(elem) {
-    var target = elem;
+/* Get the text field */
+  var copyText = $('elem');
 
-    // select the content
-    var currentFocus = document.activeElement;
+  /* Select the text field */
+  $(elem).select();
+document.execCommand('copy');
+     }
 
-    target.focus();
-    target.setSelectionRange(0, target.value.length);
-
-    // copy the selection
-    var succeed;
-
-    try {
-      succeed = document.execCommand("copy");
-    } catch (e) {
-      console.warn(e);
-
-      succeed = false;
-    }
-
-    // Restore original focus
-    if (currentFocus && typeof currentFocus.focus === "function") {
-      currentFocus.focus();
-    }
-
-    if (succeed) {
-      $(".copied").animate({ top: -25, opacity: 0 }, 700, function() {
-        $(this).css({ top: 0, opacity: 1 });
-      });
-    }
-
-    return succeed;
-  }
-
-  $("#copyButton, #copyTarget").on("click", function() {
-    copyToClipboard(document.getElementById("copyTarget"));
+  $(".copyButton, .copyTarget").on("click", function() {
+console.log($(this).find('.copyButton'))
+    copyToClipboard($(this).siblings('.copyTarget'));
   });
 })();
 

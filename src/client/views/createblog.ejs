@@ -251,7 +251,7 @@ redirect: 'follow'
 };
 
 if(formtype == 'edit'){
-fetch(`http://localhost:3000/editblog/${blogid}?formtype=edit`, requestOptions)
+fetch(`http://ec2-3-87-79-119.compute-1.amazonaws.com:3000/editblog/${blogid}?formtype=edit`, requestOptions)
 .then(response => response.text())
 .then(result => {
 console.log(result)
@@ -259,7 +259,7 @@ location.replace('/doctorprofile/'+doctorid)
 })
 .catch(error => console.log('error', error));
 }else{
-fetch("http://localhost:3000/createblog", requestOptions)
+fetch("http://ec2-3-87-79-119.compute-1.amazonaws.com:3000/createblog", requestOptions)
 .then(response => response.text())
 .then(result => {
 console.log(result)

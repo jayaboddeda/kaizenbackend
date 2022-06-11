@@ -14,7 +14,6 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
     <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="stylesheet" href="../css/easy-responsive-tabs.css">
     <link rel="stylesheet" href="../css/jquery.datetimepicker.min.css">
     <script src="../js/jquery-2.1.1.min.js"></script>
 </head>
@@ -23,17 +22,32 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
     <header>
         <div class="container flex">
             <div id="logo">
-                <a href="../index"><img src="../assets/images/logo.svg" alt=""></a>
+                <a href="../index.html"><img src="../assets/images/logo.svg" alt=""></a>
             </div>
             <nav>
                 <ul>
-                    <li><a href="../index">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About Us</a></li>
                     <li><a href="../services.html" class="active">Services</a></li>
                     <li><a href="../team.html">Our Team</a></li>
-                    <li><a href="../patientinfo.html">case</a></li>
-                    <li><a href="../blogs">Blog</a></li>
-                    <li><a href="../contact">Contact Us</a></li>
+                    <li><a href="../aboutcancer.html">About cancer</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li><a href="../contact.html">Contact Us</a></li>
                 </ul>
+            <div class="mobileMenuAddress">
+                    <h3>Our Locations</h3>
+                    <div class="mobileLocations">
+                        <h4>Care Hospitals - Hi-tech City </h4>
+                        <p>1-4-908/7/1, Musheerabad Main Rd, near Raja Deluxe Theatre, Musheerabad, Bakaram, Kavadiguda,
+                            Hyderabad, Telangana 500020</p>
+                        <h4>Care Hospitals - Banjara Hills</h4>
+                        <p>Rd Number 1, Prem Nagar,<br> Banjara Hills, Hyderabad, Telangana 500034</p>
+                        <h4>Care Hospitals - Nampally</h4>
+                        <p>Exhibition Grounds, Road, Nampally, Hyderabad, Telangana 500001</p>
+                        <h4>Mahavir Hospitals - Masab Tank</h4>
+                        <p class="mb-0">10-1-1, Utkoor - Mogdumpur Rd, AC Guards, Lakdikapul, Hyderabad, Telangana 500004</p>
+                    </div>
+                </div>
             </nav>
             <div class="nav-icon"><span></span><span></span><span></span></div>
             <div class="overlay"></div>
@@ -42,14 +56,14 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
 
     <div class="banner innerPageBanner doctorsBanner">
         <div class="bannerSlider">
-            <div class="bannerImage" style="background-image: url('../assets/images/ourTeam.jpg');">
+            <div class="bannerImage" style="background-image: url('../assets/images/servicesBanner/hematology.jpg');">
             </div>
         </div>
     </div>
     <div class="breadcrumbs">
         <div class="container">
             <ul>
-                <li><a href="../index">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="../services.html">Services</a></li>
                 <li class="active">Hematology</li>
             </ul>
@@ -60,6 +74,16 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
             <div class="serviceLeft">
                 <!-- <div class="mobileDrop servicesmobileDrop">More Services &nbsp;&nbsp;&nbsp;&nbsp;<a
                         class="mobileScroll"></a></div> -->
+                <ul class="resp-tabs-list">
+                    <li class="active"><a data-index="services-tab1" href="hematology.html#services-tab1">Overview</a>
+                    </li>
+                    <li><a data-index="services-tab2" href="hematology.html#services-tab2">Why Choose
+                            Us?</a></li>
+                    <li><a data-index="services-tab3" href="hematology.html#services-tab3">Treatments</a>
+                    </li>
+                    <!-- <li><a data-index="services-tab4" href="hematology.html#services-tab4">Our Doctors</a>
+                    </li> -->
+                </ul>
                 <div class="servicelinks">
                     <h3>Our Services</h3>
                     <div class="activeService">
@@ -67,46 +91,47 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
                                     alt=""></span>Hematology</h4>
                         <div class="activeserviceItems">
                             <ul>
-                                <li><a href="#">Laparoscopic Cancer Surgery</a></li>
-                                <li><a href="#">Breast Oncoplasty</a></li>
-                                <li><a href="#">Sentinel Lymph Node Surgery</a></li>
-                                <li><a href="#">HIPEC ( Hypertheramic Intraperitoneal Chemotheraphy )</a></li>
-                                <li><a href="#">VATS ( Video Assisted Thoracoscopic Surgery )</a></li>
-                                <li><a href="#">Head and Neck Surgery</a></li>
-                                <li><a href="#">Orthopedic Surgery</a></li>
+                                <li><a href="#">Hemoglobinopathies - Thalassemias, Sickle cell disease etc</a></li>
+                                <li><a href="#">Complex Blood Disorders- Hemophagocytic lymphohistio cytosis</a></li>
+                                <li><a href="#">Acquired Hemolytic Anemias</a></li>
+                                <li><a href="#">Pregnancy Related Blood Disorders</a></li>
+                                <li><a href="#">Bleeding Disorders</a></li>
+                                <li><a href="#">Bone Marrow Failure Syndromes</a></li>
                             </ul>
                         </div>
                         <h4><a href="medicaloncology.html"><span><img src="../assets/images/medicaloncologyservices.svg"
                                         alt=""></span>Medical Oncology</a></h4>
-                        <h4><a href="radiationoncology.html"><span><img src="../assets/images/radiationoncologyservice.svg"
-                                        alt=""></span>Radiation
+                        <h4><a href="radiationoncology.html"><span><img
+                                        src="../assets/images/radiationoncologyservice.svg" alt=""></span>Radiation
                                 Oncology</a></h4>
-                        <h4><a href="surgicaloncology.html"><span><img src="../assets/images/surgicaloncologyservice.svg"
-                                        alt=""></span>Surgical
-                                        Oncology</a></h4>
-                        <h4><a href="bonemarrowtransplant.html"><span><img src="../assets/images/bonemarrowtransplantservice.svg"
-                                        alt=""></span>Bone
+                        <h4><a href="surgicaloncology.html"><span><img
+                                        src="../assets/images/surgicaloncologyservice.svg" alt=""></span>Surgical
+                                Oncology</a></h4>
+                        <h4><a href="bonemarrowtransplant.html"><span><img
+                                        src="../assets/images/bonemarrowtransplantservice.svg" alt=""></span>Bone
                                 Marrow Transplant</a></h4>
-                        <h4><a href="paediatriconcology.html"><span><img src="../assets/images/pediatriconcologyservice.svg"
-                                        alt=""></span>Paediatric
+                        <h4><a href="paediatriconcology.html"><span><img
+                                        src="../assets/images/pediatriconcologyservice.svg" alt=""></span>Paediatric
                                 Oncology</a></h4>
-                        <h4><a href="multidisciplinaryorganpreservation.html"><span><img src="../assets/images/radiationoncologyservice.svg"
+                        <h4><a href="multidisciplinaryorganpreservation.html"><span><img
+                                        src="../assets/images/radiationoncologyservice.svg"
                                         alt=""></span>Multidisciplinary Care for Organ Preservation</a></h4>
-                        <h4><a href="supportiveservices.html"><span><img src="../assets/images/supportivecareservicess.svg"
-                                        alt=""></span>Supportive Care
+                        <h4><a href="supportiveservices.html"><span><img
+                                        src="../assets/images/supportivecareservicess.svg" alt=""></span>Supportive Care
                                 Services</a></h4>
                         <h4><a href="hematooncology.html"><span><img src="../assets/images/hematooncologyservice.svg"
                                         alt=""></span>Hemato-Oncology
                             </a></h4>
                     </div>
                     <div class="innerForm">
-                        <a href="9154143858"><img src="../assets/images/phone.svg" alt="">+91 9154143858/59/60</a>
+                        <a href="tel:9154143858"><img src="../assets/images/phone-white.svg" alt="">+91
+                            9154143858/59/60</a>
                         <ul>
                             <li>
-                                <input type="text" name="name" placeholder="Name" id="" />
+                                <input type="text" name="name" placeholder="Name" />
                             </li>
                             <li>
-                                <input type="text" name="phone" placeholder="Phone" id="" />
+                                <input type="text" name="phone" placeholder="Phone" />
                             </li>
                             <li>
                                 <input type="text" placeholder="Date and Time" name="DateTime" id="dateTimeCalendar" />
@@ -118,100 +143,155 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
             </div>
             <div class="serviceContent">
                 <div id="horizontalTab">
-                    <ul class="resp-tabs-list">
-                        <li>Overview</li>
-                        <li>Why Choose Us?</li>
-                        <li>Treatments</li>
-                        <li>Our Doctors</li>
-                    </ul>
                     <div class="resp-tabs-container">
-                        <div>
-                            <h2>Overview</h2>
-                            <p>Advances in the field of medical and radiation oncology have offered potential cure to
-                                most solid
-                                cancers. Despite these advances, surgery is still the mainstay treatment for most
-                                cancers.</p>
-                            <br>
-                            <p>Branch of surgery that deals with cancer management is known as Surgical Oncology. They
-                                focus on
-                                surgical interventions to diagnose and stage cancer, relieve its symptoms, and to
-                                prevent its
-                                spreading
-                                or recurrence. It also focuses on surgeries to control pain, increase a patient’s
-                                comfort level, and
-                                to
-                                manage cancer-related symptoms (palliative surgeries).
-                            </p>
-                            <br>
-                            <h5 class="mt-0 mb-5">The Surgical Oncology Department aims to:</h5>
-                            <ul>
-                                <li>Cure
-                                    or palliative care</li>
-                                <li>Improve the quality of life</li>
-                                <li>Practice evidence-based medications</li>
-                                <li>Achieve minimal</li>
-                            </ul>
-                            <br>
-                            <p> morbidity and zero mortality rates - Appropriate pre-operative preparation and
-                                postoperative care
-                                Depending on the type of cancer, its location and size of tumor, surgical oncology
-                                offers the
-                                following
-                                services: </p>
-                            <br>
-                            <p><strong>Complex cancer surgeries</strong> involve surgical treatments and
-                                multidisciplinary care of
-                                rare or
-                                uncommon cancers or complex presentations.</p> <br>
-                            <p>
-                                <strong>Laparoscopic cancer surgeries</strong> for gastric and gynecological
-                                cancers. Sentinel node biopsies for staging and management of breast cancers.
-                                Reconstructive cancer
-                                surgeries to repair the changes that occur in your body from cancer surgeries.</p>
-                            <br>
-                            <p> <strong>Video-Assisted Thoracic
-                                    Cancer Surgeries (VATS)</strong> are mainly for the effective management of thoracic
-                                cancers.
-                            </p>
-                            <br>
-                            <p><strong>Sphincter
-                                    preserving rectal cancer surgeries</strong> and organ preservation for the
-                                management of various
-                                gastrointestinal
-                                cancers.</p>
-                            <br>
-                            <p><strong>Chemo port placement</strong> (Adult & Pediatric) for easy withdrawal of blood
-                                and for the
-                                administration of intravenous fluids, blood transfusions, or drugs such as chemotherapy.
-                            </p>
-                            <br>
-                            <p><strong>Hyperthermic
-                                    intraperitoneal chemotherapy (HIPEC)</strong> - An effective palliative therapy for
-                                people with
-                                malignant
-                                ascites, or an accumulation of fluid in the abdomen.</p>
-                            <br>
-                            <p><strong>Organ Conservative Surgeries</strong>- An effective
-                                surgical-alternative for advanced-stage cancers providing better oncological control and
-                                minimal
-                                complications.</p>
-                            <br>
-                            <p><strong>Breast Oncoplasty or Oncoplastic Breast Reconstruction</strong> - A new surgical
-                                approach
-                                combining principles of cancer surgery and plastic surgery to remove cancer by
-                                maintaining the shape
-                                and
-                                symmetry of the breast.</p>
+                        <div class="cancerItem services-tab1 active">
+                            <a class="cancerType" data-index="services-tab1"
+                                href="hematology.html#services-tab21">Overview</a>
+                            <div class="cancertypeContent services-tab21">
+                                <h2>Overview</h2>
+                                <p> At Kaizen Hematology-Oncology Network, we make sure that your blood performs the
+                                    right functions optimally. If you need a blood disorder treatment care, we precisely
+                                    know what to do by giving you the right treatment options.</p><br>
+                                <p>The Hematology Oncology team at Kaizen treats patients with blood disorders,
+                                    lymphatic system issues, and bone marrow problems.</p><br>
+                                <p>At Kaizen, our Hematologists treat issues like blood clots (thrombosis), anemia,
+                                    bleeding problems, blood cancers (hematological malignancies), bone marrow and other
+                                    disorders that are either present at the time of birth or have developed over time.
+                                </p><br>
+
+                                <p> Kaizen Hematology-Oncology Networks’ clinicians and researchers are the most
+                                    comprehensive, unified and integrated team with a sole purpose to discover,
+                                    investigate and drive innovations in cancer treatment.</p><br>
+                                <p>We offer advanced prevention and treatment programs with leading-edge clinical trials
+                                    and innovative therapies for both children and adults. Our cancer experts work
+                                    together, being a part of a multidisciplinary, disease-oriented team and tailor a
+                                    customized treatment plan for each patient. We provide the safest conditions for
+                                    both patients and staff.</p><br>
+                                <p> Kaizen’s facility offers access to oncology experts with an ambience that caters the
+                                    special needs of cancer patients and also their families. Our technology offers
+                                    revolutionary methods of diagnosis, observing and improving all kinds of treatments
+                                    to cancer care.</p><br>
+                                <p>Our Oncology specialists work together as a part of the dedicated care team to
+                                    specific types of cancer, identify them and tailor targeted and customized treatment
+                                    plans for each patients’ unique needs, and come out with the best possible results.
+                                </p><br>
+                                <p>The nurse and nurse practitioner team too are specialized teams who work with respect
+                                    and compassion towards every patient’s personal needs.</p><br>
+
+                                <h3>When to see a Hematologist Oncologist?</h3>
+                                <p>Before seeing a Hematology/Oncologist, you will be required to visit a general
+                                    practice doctor. If the doctor gets the result that you have a health condition
+                                    pertaining to a blood disorder or cancer, the patient will be referred to the
+                                    Hematologist/Oncologist.</p><br>
+                                <p>Conditions that are addressed are listed below</p>
+                                <ul>
+                                    <li> Blood cancer management</li>
+                                    <li> Bleeding health disorders</li>
+                                    <li> Blood abnormalities that affect patient health</li>
+                                    <li> Bone marrow transplant care</li>
+                                    <li> Cancers in remission care</li>
+                                    <li> Cancer recurrence health screening</li>
+                                    <li> Cancer or blood disorder symptoms management</li>
+                                    <li> Familial cancer syndrome medical care</li>
+                                    <li> Post-transplant medical care </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div>
-                            <h2>Why Choose Us?</h2>
+                        <div class="cancerItem services-tab2">
+                            <a class="cancerType" data-index="services-tab2" href="hematology.html#services-tab22">Why
+                                Choose
+                                Us?</a>
+                            <div class="cancertypeContent services-tab22">
+                                <h2>Why Choose Us?</h2>
+                                <p> Individualized care for your unique needs</p><br>
+                                <p>Kaizen Oncology offers individualized plans based on your specific diagnosis
+                                    depending on factors like your lifestyle, general health condition and family
+                                    history. Our team of experts comprise of surgeons, hematologists, radiation
+                                    oncologists, pain management team and nurses who offer the best in cancer treatment
+                                    care.</p><br>
+                                <p>Specialized expertise and latest treatment options</p><br>
+                                <p> We bring in the latest medical advancement treatment options by performing
+                                    innovative procedures, robotic surgeries, and special pediatric oncology programs.
+                                    We are a recognized hub for groundbreaking procedures and research providing you
+                                    access to the latest inventions and protocols.</p><br>
+                                <p> At Kaizen Hematology-Oncology Network, our team of passionate oncologists and other
+                                    involved staff provide utmost care for children, young adults, teenagers who have
+                                    blood disorders and cancer. We manage the most complex and rare cases of cancer with
+                                    comprehensive services and support to each and every patient. Our patients have
+                                    access to all the latest advancements of cancer care, which include clinical trials
+                                    too. </p>
+                            </div>
                         </div>
-                        <div>
-                            <h2>Treatments</h2>
+                        <div class="cancerItem services-tab3">
+                            <a class="cancerType" data-index="services-tab3"
+                                href="hematology.html#services-tab23">Treatments</a>
+                            <div class="cancertypeContent services-tab23">
+                                <h2>Treatments</h2>
+                                <h3>Leukemia</h3>
+                                <p> A type of cancer that leads to cause abnormal white blood cells. Symptoms include
+                                </p>
+                                <ul>
+                                    <li> Low energy levels</li>
+                                    <li> Easy bruising</li>
+                                    <li> Continued or high frequency infections</li>
+                                </ul><br>
+                                <p>The preferred treatment for Leukemia is Chemotherapy. The treatment involves using
+                                    chemotherapy to kill cancer cells. Based on the type of Leukemia you have, you will
+                                    either receive a single drug or a combination of different drugs. These come in the
+                                    form of injections or can be pills.</p><br>
+                                <h3>Clotting or bleeding disorders</h3>
+                                <p>Bleeding or clotting disorders prevent the ability of your blood to stop bleeding. If
+                                    you have a scrape or a cut, your blood will either clot very slowly or sometimes
+                                    does not clot at all. You are also at the high risk of heart attacks and premature
+                                    strokes.</p><br>
+                                <p> The treatment process includes medications to help in better clotting or blood
+                                    transfusion. If you have had sever bleeding, you might be given a blood transfusion
+                                    to add blood clotting elements in place of the lost blood.</p><br>
+                                <h3>Bone Marrow Disorders</h3>
+                                <p>Bone marrow disorders are caused to the stem cells of the bone marrow, a place where
+                                    blood cells are produced. The general symptoms of Bone marrow disorders are</p>
+                                <ul>
+                                    <li> Bruising</li>
+                                    <li> Exhaustion</li>
+                                    <li> Infections that don’t come down</li>
+                                </ul><br>
+                                <p>Your treatment for Bone Marrow disorders depends on its severity and the kind of
+                                    disorder you have. Treatment options might include medications, bone marrow
+                                    transplant or transfusion.</p><br>
+                                <h3>Anemia</h3>
+                                <p>This is a condition when you do not have adequate red blood cells, that carry oxygen
+                                    to all other parts of the body. Symptoms include</p>
+                                <ul>
+                                    <li> Loss of hair</li>
+                                    <li> Low energy levels</li>
+                                    <li> Pale colored skin</li>
+                                    <li> Shortness of breath</li>
+                                </ul><br>
+                                <p>The treatment plan for Anemia depends on its severity and cause. Treatment options
+                                    might include usage of supplements, dietary changes, medications, and sometimes
+                                    surgery.</p><br>
+                                <p>If you have severe Iron deficiency Anemia, you may be recommended iron injections,
+                                    blood transfusion, or IV therapy. The end goal of the treatment is to restore normal
+                                    red blood cell count, iron and hemoglobin.</p><br>
+                                <h3>Immunodeficiency</h3>
+                                <p>This is a condition, when you develop a weak immune system, a condition when your
+                                    white blood cells cannot defend you against infections. Symptoms include</p>
+                                <ul>
+                                    <li> Sweat during nights</li>
+                                    <li> Fevers</li>
+                                    <li> Infections don’t heal</li>
+                                </ul><br>
+                                <p>Stem cell transplantation is an option that offers permanent cure to many forms of
+                                    immunodeficiency issues. </p>
+                            </div>
                         </div>
-                        <div>
-                            <h2>Our Doctors</h2>
-                        </div>
+                        <!-- <div class="cancerItem services-tab4">
+                            <a class="cancerType" data-index="services-tab4" href="hematology.html#services-tab24">Our
+                                Doctors</a>
+                            <div class="cancertypeContent services-tab24">
+                                <h2>Our Doctors</h2>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -220,16 +300,17 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
 
     <footer class="space40">
         <div class="container">
-            <div class="footerLogo"><a href="index"><img src="../assets/images/logo.svg" alt=""></a></div>
+            <div class="footerLogo"><a href="index.html"><img src="../assets/images/logo.svg" alt=""></a></div>
             <div class="footerRight">
                 <div class="footerlinks">
                     <h4>COMPANY</h4>
                     <ul>
-                        <li><a href="../index">Home</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About Us</a></li>
                         <li><a href="../services.html">Services</a></li>
-                        <li><a href="../patientinfo.html">case</a></li>
-                        <li><a href="../blogs">Blog</a></li>
-                        <li><a href="../contact">Contacts Us</a></li>
+                        <li><a href="../aboutcancer.html">About cancer</a></li>
+                        <li><a href="../blog.html">Blog</a></li>
+                        <li><a href="../contact.html">Contacts Us</a></li>
                     </ul>
                 </div>
                 <div class="footerlinks">
@@ -241,16 +322,24 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
                 </div>
                 <div class="footerlinks addressBlock">
                     <h4>ADDRESS</h4>
-                    <p>Hi-tech City | Banjara Hills| Nampally | Musheerabad</p>
+                    <p>Hi-tech City | Banjara Hills | Nampally | Masab Tank</p>
                     <div class="socialMedia">
                         <label class="socialLabel">Follow Us :</label>
                         <ul>
-                            <li><a target="_blank" href="https://www.youtube.com/channel/UCo_QHdCV1JFp_vQPYLMqY2A"><img src="../assets/images/youtubeIcon.svg" alt=""></a></li>
-                            <li><a target="_blank" href="https://www.facebook.com/kaizenoncologynetwork/?ref=pages_you_manage"><img src="../assets/images/facebookIcon.svg" alt=""></a></li>
-                            <li><a target="_blank" href="https://twitter.com/KaizenOncology"><img src="../assets/images/twitterIcon.svg" alt=""></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/company/kaizen-oncology/?viewAsMember=true"><img src="../assets/images/linkedinIcon.svg" alt=""></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/kaizenoncologynetwork/"><img src="../assets/images/instgaramIcon.svg" alt=""></a></li>
-                            <li><a target="_blank" href="https://blog.kaizenoncology.com/"><img src="../assets/images/blogIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/channel/UCo_QHdCV1JFp_vQPYLMqY2A"><img
+                                        src="../assets/images/youtubeIcon.svg" alt=""></a></li>
+                            <li><a target="_blank"
+                                    href="https://www.facebook.com/kaizenoncologynetwork/?ref=pages_you_manage"><img
+                                        src="../assets/images/facebookIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://twitter.com/KaizenOncology"><img
+                                        src="../assets/images/twitterIcon.svg" alt=""></a></li>
+                            <li><a target="_blank"
+                                    href="https://www.linkedin.com/company/kaizen-oncology/?viewAsMember=true"><img
+                                        src="../assets/images/linkedinIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/kaizenoncologynetwork/"><img
+                                        src="../assets/images/instgaramIcon.svg" alt=""></a></li>
+                            <li><a target="_blank" href="https://blog.kaizenoncology.com/"><img
+                                        src="../assets/images/blogIcon.svg" alt=""></a></li>
                         </ul>
                     </div>
                 </div>
@@ -261,38 +350,38 @@ hospital,hospital near me,orthopedic hospital near me,hospitals in kukatpally,ku
         <p>Copyright <span>©</span> <span id="yearUpdate">2022</span> kaizen rights reserved.</p>
     </div>
     <a href="javascript:void(0)" class="back-to-top" onclick="$('html,body').animate({scrollTop:0},500);"></a>
-    <span class="extraMobileSpace"></span>
+    <!-- <span class="extraMobileSpace"></span> -->
     <script src="../js/global.js"></script>
-    <script src="../js/easy-responsive-tabs.js"></script>
     <script src="../js/jquery.datetimepicker.full.min.js"></script>
     <script>
-        //======== Responsive Tabs
-        $('#horizontalTab').easyResponsiveTabs({
-            type: 'vertical', //Types: default, vertical, accordion           
-            width: 'auto', //auto or any width like 600px
-            fit: true, // 100% fit in a container
-            closed: 'accordion', // Start closed if in accordion view
-            activate: function (event) { // Callback function if tab is switched
-                var $tab = $(this);
-                var $info = $('#tabInfo');
-                var $name = $('span', $info);
-                $name.text($tab.text());
-                $info.show();
-            }
-        });
-
-        //========
-        $('.moreServices ul li .activeService h4').click(function () {
-            $(this).parent().find('.activeserviceItems').slideToggle();
-            $(this).parent().parent().siblings().find('.activeserviceItems').slideUp();
-            $(this).parent().parent().toggleClass('active');
-            $(this).parent().parent().siblings().removeClass('active');
-        });
-
         //======== Inner pages mobile extra links menu
         // $('.mobileDrop').click(function () {
         //     $('body').toggleClass('openSmoothScroll')
         // });
+        //========= Cancer Types Responsive Tabs
+        if ($(window).width() > 767) {
+
+            $('.serviceData ul.resp-tabs-list li a').click(function () {
+                var tar = '.' + $(this).attr('data-index');
+
+                $(tar).fadeIn();
+                $(tar).siblings().hide();
+                $(tar).parent().addClass('activeMobile');
+                $(this).closest('li').addClass('active');
+                $(this).closest('li').siblings().removeClass('active');
+            });
+        }
+        //========= Cancer Types Desktop Tabs
+        if ($(window).width() < 767) {
+            $('.cancerItem .cancerType').click(function () {
+                var tar = '.' + $(this).attr('data-index');
+                $(this).parent().find('.cancertypeContent').slideToggle();
+                $(this).parent().siblings().find('.cancertypeContent').hide();
+                $(this).toggleClass('active');
+                $(this).parent().siblings().find('.cancerType').removeClass('active');
+            });
+        }
+
         //======== Date and time
         $('#dateTimeCalendar').datetimepicker();
     </script>

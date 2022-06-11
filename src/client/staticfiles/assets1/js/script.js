@@ -22,6 +22,7 @@ $(".edu_btn").click(function () {
         </div>
       </div>
     </div>`);
+initdatepicker()
 });
 
 $(".service_btn").click(function () {
@@ -41,6 +42,7 @@ $(".exp_btn").click(function () {
   $("#exp_remove").removeClass("hidden");
 
     $(".experience-details").last().after(`<div class="row px-5 experience-details experience-details2" id="exp_row2"><div class="col-md-6"><div class="py-2"><input type="text" class="form-control mb-2 doc_company_name" placeholder="Company Name" required><input type="text" class="form-control mb-2 doc_job" placeholder="Job Position" required><div class="position-relative"><input type="text" class="form-control doc_period_to_date date" placeholder="Period To" required><span class="position-absolute cal-icon"><i class="fal fa-calendar "></i></span></div></div></div><div class="col-md-6"><div class="py-2"><input type="text" class="form-control mb-2 doc_location" placeholder="Location"required><div class="position-relative"><input type="text" class="form-control doc_period_from_date date"placeholder="Period From" required><span class="position-absolute cal-icon"><i class="fal fa-calendar "></i></span></div></div></div></div>`);
+initdatepicker()
 });
 
 
@@ -214,7 +216,7 @@ let servicearr = [];
     redirect: "follow",
   };
 
-  fetch("http://localhost:3000/submitvideo", requestOptions)
+  fetch("http://ec2-3-87-79-119.compute-1.amazonaws.com:3000/submitvideo", requestOptions)
     .then((response) => response.text())
     .then((result) => {
 console.log(result)
@@ -232,7 +234,7 @@ imgsrc = result
 //         body: formdata,
 //         redirect: "follow",
 //       };
-  //     fetch("http://localhost:3000/submitvideo", requestOptions)
+  //     fetch("http://ec2-3-87-79-119.compute-1.amazonaws.com:3000/submitvideo", requestOptions)
   //     .then((response) => response.text())
   //     .then((result) => {
   //       console.log(result)
@@ -249,7 +251,7 @@ imgsrc = result
   //         body: formdata,
   //         redirect: "follow",
   //       };
-//         fetch("http://localhost:3000/submitvideo", requestOptions)
+//         fetch("http://ec2-3-87-79-119.compute-1.amazonaws.com:3000/submitvideo", requestOptions)
 //         .then((response) => response.text())
 //         .then((result) => {
 // console.log(result)
@@ -314,7 +316,7 @@ imgsrc = result
         redirect: "follow",
       };
 
-      fetch("http://localhost:3000/doctorform", requestOptions)
+      fetch("http://ec2-3-87-79-119.compute-1.amazonaws.com:3000/doctorform", requestOptions)
         .then((response) => response.text())
         .then((result) => {
           location.replace('/alldoctors')
@@ -339,7 +341,7 @@ else{
       redirect: "follow",
     };
 
-    fetch("http://localhost:3000/doctorform", requestOptions)
+    fetch("http://ec2-3-87-79-119.compute-1.amazonaws.com:3000/doctorform", requestOptions)
       .then((response) => response.text())
       .then((result) => {
         location.replace('/alldoctors')
